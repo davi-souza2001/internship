@@ -1,0 +1,185 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contentGeral{
+    display: flex;
+}
+
+.leftBar{
+    width: 9vw;
+    height: 100vh;
+    background-color:  #434A54;
+}
+
+.buttonSandu{
+    margin-bottom: 0.8rem;
+}
+
+.buttonSandu img{
+    width: 40px;
+    height: 40px;
+}
+
+.tutorialContent{
+    width: 9vw;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.tutorial{
+    width: 8vw;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #1681BF;
+}
+
+.tutorial img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.dashboardContent{
+    width: 9vw;
+    height: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+    color: #a8abaf;
+    cursor: pointer;
+}
+
+.dashboardContent img {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.optionsContent {
+    width: 9vw;
+    height: 40vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: #a8abaf;
+}
+
+.optionsContent img{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.optionHandleContent{
+    width: 9vw;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.userOptionsContent{
+    width: 9vw;
+    height: 7vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    color: #a8abaf;
+}
+
+.myAccountOptionContent{
+    width: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.configurationContent{
+    width: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flowupContent{
+    margin-top: 20px;
+    height: 10vh;
+    width: 9vw;
+    background-color: blue;
+}
+
+.flowupTimeContent{
+    height: 5vh;
+    width: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    background-color: red;
+}
+
+.flowupTaskContent{
+    height: 5vh;
+    width: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    background-color: green;
+}
+
+.contentInfo{
+    height: 100vh;
+    width: 91vw;
+}
+
+.mensageInicial{
+    margin-left: 20px;
+    border-left: 1px solid #1681BF;
+}
+
+.infoMore{
+    margin-left: 10px;
+    color: #6c6d6e;
+}
+
+.infoMore h3{
+    color: #000;
+    font-weight: 500;
+}
+
+.bar{
+    width: 100px;
+    border-bottom: 8px solid #FFAE00;
+}
+
+.config{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.config button{
+    height: 40px;
+    width: 200px;
+    background-color: #1681BF;
+    outline: none;
+    border: none;
+    font-size: 140%;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
