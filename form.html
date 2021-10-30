@@ -296,13 +296,14 @@
                     $('.step').hide();
                     $('.step').first().show();
 
+                    const algo = document.querySelector("#step_4");
                     //Exibe no topo em qual passo estamos pela ordem da div que esta visivel
                     var passoexibido = function () {
                         var index = parseInt($(".step:visible").index());
                         if (index == 0) {
                             //Se for o primeiro passo desabilita o botão de voltar
                             $("#prev").prop('disabled', true);
-                        }   else if (index == (parseInt($(".step").length) - 1)) {
+                        } else if (index == (parseInt($(".step").length) - 1)) {
                             //Se for o ultimo passo desabilita o botão de avançar
                             $("#next").prop('disabled', true);
                         } else {
